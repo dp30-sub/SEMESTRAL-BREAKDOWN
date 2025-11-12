@@ -5,7 +5,12 @@ class GameManager {
     private String[] randomEvents = {
         "EXAM_WEEK", "ALLOWANCE_DELAY", "POWER_OUTAGE", "RAINY_DAY", "GOOD_DAY"
     };
-    
+    private String[] dayLog = new String[30];
+    private int[] gradeHistory = new int[30];
+    private int[] energyHistory = new int[30];
+    private int[] stressHistory = new int[30];
+    private int[] moneyHistory = new int[30];
+
     public GameManager() {
         scanner = new Scanner(System.in);
         random = new Random();
