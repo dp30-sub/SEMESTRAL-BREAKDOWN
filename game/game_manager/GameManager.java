@@ -56,6 +56,14 @@ class GameManager {
             triggerRandomEvent();
             player.setDay(player.getDay() + 1);
             
+            int dayIndex = player.getDay() - 1; // since array index starts at 0
+
+            dayLog[dayIndex] = player.getLastActionName(); // record what they did today
+            gradeHistory[dayIndex] = player.getGrades();
+            energyHistory[dayIndex] = player.getEnergy();
+            stressHistory[dayIndex] = player.getStress();
+            moneyHistory[dayIndex] = player.getMoney();
+
             // Add a small pause between days
             if (player.getDay() <= 30 && !isGameOver()) {
                 System.out.println("\nPress Enter to continue to next day...");
