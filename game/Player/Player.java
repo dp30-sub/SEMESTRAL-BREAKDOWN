@@ -10,10 +10,10 @@ class Player {
     
     public Player(String name) {
         this.name = name;
-        this.money = 1000;
-        this.energy = 100;
-        this.stress = 0;
-        this.grades = 75;
+        this.money = 200;
+        this.energy = 60;
+        this.stress = 20;
+        this.grades = 50;
         this.day = 1;
         this.activities = new Action[10];
         this.activityCount = 0;
