@@ -5,9 +5,9 @@ public class HangOut extends Action {
 
     @Override
     public void perform(Player player) {
-        player.setMoney(player.getMoney() - 200);   
-        player.setEnergy(player.getEnergy() + 10);  
-        player.setStress(player.getStress() - 8); 
+        player.setMoney(player.getMoney() - 20);   
+        player.setEnergy(player.getEnergy() -5);  
+        player.setStress(player.getStress() - 15); 
         System.out.println("You hung out with friends, spent some money but had fun and feel relaxed.");
     }
 }
