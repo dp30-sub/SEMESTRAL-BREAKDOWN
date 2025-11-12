@@ -117,3 +117,31 @@ class GameManager {
             handleRandomEvent(event);
         }
     }
+
+    private Difficulty selectDifficulty() {
+    System.out.println("\nSELECT DIFFICULTY:");
+    System.out.println("1. NORMAL - Balanced challenge (₱1000, 100 Energy)");
+    System.out.println("2. HARD   - Limited resources, requires strategy (₱500, 80 Energy)");
+    System.out.print("Choose difficulty (1-2): ");
+    
+    try {
+        int choice = scanner.nextInt();
+        scanner.nextLine();
+        
+        switch (choice) {
+            case 1: 
+                System.out.println("NORMAL difficulty selected.");
+                return Difficulty.NORMAL;
+            case 2: 
+                System.out.println("HARD difficulty selected. Good luck!");
+                return Difficulty.HARD;
+            default: 
+                System.out.println("Invalid choice. Using NORMAL difficulty.");
+                return Difficulty.NORMAL;
+        }
+    } catch (InputMismatchException e) {
+        System.out.println("Invalid input. Using NORMAL difficulty.");
+        scanner.nextLine();
+        return Difficulty.NORMAL;
+    }
+}
