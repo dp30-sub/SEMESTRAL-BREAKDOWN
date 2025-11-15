@@ -55,7 +55,7 @@ class Player {
     public int getActivityCount() { return activityCount; }
     
     //NEW: Getter for last action
-    public int getLastActionName(){
+    public String getLastActionName(){
         return lastActionName;
     }
 
