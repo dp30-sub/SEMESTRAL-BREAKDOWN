@@ -40,17 +40,25 @@ class Player {
     }
     
     // Getters and Setters
+    
+    
     public String getName() { return name; }
+    
     public int getMoney() { return money; }
     public void setMoney(int money) { this.money = money; }
+    
     public int getEnergy() { return energy; }
     public void setEnergy(int energy) { this.energy = energy; }
+    
     public int getStress() { return stress; }
     public void setStress(int stress) { this.stress = stress; }
+
     public int getGrades() { return grades; }
     public void setGrades(int grades) { this.grades = grades; }
+
     public int getDay() { return day; }
     public void setDay(int day) { this.day = day; }
+
     public Action[] getActivities() { return activities; }
     public int getActivityCount() { return activityCount; }
     
