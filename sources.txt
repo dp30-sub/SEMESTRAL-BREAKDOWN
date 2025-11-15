@@ -1,0 +1,10 @@
+./game/ACTION/action.java
+./game/ACTION/study.java
+./game/ACTION/work.java
+./game/ACTION/rest.java
+./game/ACTION/hangout.java
+./game/GameManager.java
+./game/Player/Player.java
+./game/GAME_MANAGER/game_manager_class.java
+./game/SemestralBreakdown.java
+./game/Difficulty/Difficulty.java
