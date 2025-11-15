@@ -8,6 +8,10 @@ class Player {
     private Action[] activities;
     private int activityCount;
     
+    // NEW; Track the last action performed
+
+    private String lastActionName;
+
     public Player(String name) {
         this.name = name;
         this.money = 200;
@@ -50,6 +54,11 @@ class Player {
     public Action[] getActivities() { return activities; }
     public int getActivityCount() { return activityCount; }
     
+    //NEW: Getter for last action
+    public int getLastActionName(){
+        return lastActionName;
+    }
+
     public void performActivity(int index) {
         if (index >= 0 && index < activityCount) {
             activities[index].perform(this);
