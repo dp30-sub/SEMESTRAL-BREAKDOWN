@@ -190,11 +190,44 @@ The game ends when:<br>
 
 # 7. **Author & Acknowledgment**  
 
----
+## 👤 Author
+
+**Dhanreigh I. Atienza**  
+- 🌐 GitHub: Dadanchii https://github.com/Dadanchii  
+  
+**Mark John Lloyd L. Ncinas**  
+- 🌐 GitHub: loyditech https://github.com/loyditech
+  
+**Dave Rowan V. Paunil**  
+- 🌐 GitHub: dp30-sub https://github.com/dp30-sub  
+
+## 🙏 Acknowledgements
+
+We would like to express our gratitude to the following:
+
+- **Instructor** – for guidance,consultation and project requirements.  
+- **Classmates / Friends** – for feedback and testing the early versions.  
+- **Online Resources** – documentation, guides, and tutorials that helped during development.  
+
+  
+
 
 # 8. **Future Enhancements**  
 
----
+## 🚀 Future Enhancements
+
+Planned updates and improvements:
+
+- 🔹 Add save/load game functionality  
+- 🔹 Improve event system with more random scenarios  
+- 🔹 Add difficulty levels (Easy, Normal, Hard)  
+- 🔹 Add more detailed character stats  
+- 🔹 Add color-coded console output  
+- 🔹 Integrate sound or GUI version  
+- 🔹 Add weekly summary reports  
+- 🔹 Improve scoring system  
+- 🔹 Add achievements system  
+
 
 
 
