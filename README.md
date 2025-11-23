@@ -205,7 +205,7 @@ The game ends when:<br>
 
 We would like to express our gratitude to the following:
 
-- **Instructor** – for guidance,consultation and project requirements.  
+- **Mr. EMMANUEL CHARLIE B. ENRIQUEZ** – for guidance,consultation and project requirements.  
 - **Classmates / Friends** – for feedback and testing the early versions.  
 - **Online Resources** – documentation, guides, and tutorials that helped during development.  
 
