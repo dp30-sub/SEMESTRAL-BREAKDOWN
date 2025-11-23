@@ -135,20 +135,20 @@ Each modifies player stats differently.
 
 
 
----🚀 How to Run the Program
+---🚀 How to Run the Program<br>
 -When using a Command Line:
--1. Navigate to the project's src folder:
-    - cd/src
--2. Compile all Java Files:
-    - javac game/*. java game/events/*.java
--3. Run the main class:
-    - java game.SemestralBreakdown
+-1. Navigate to the project's src folder:<br>
+    - cd/src<br>
+-2. Compile all Java Files:<br>
+    - javac game/*. java game/events/*.java<br>
+-3. Run the main class:<br>
+    - java game.SemestralBreakdown<br>
 
--When using an IDE:
--1. Open the project folder in your IDE
--2. Mark src as Source Root (if required)
--3. Open the file:
-    - game/semestralBreakdown.java
+-When using an IDE:<br>
+-1. Open the project folder in your IDE<br>
+-2. Mark src as Source Root (if required)<br>
+-3. Open the file:<br>
+    - game/semestralBreakdown.java<br>
 -4. Right-click Run 'SemestralBreakdown.main()'
 
 
