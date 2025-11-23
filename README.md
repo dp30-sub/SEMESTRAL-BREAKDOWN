@@ -1,86 +1,150 @@
-# 🎮 SEMESTRAL BREAKDOWN – Java Console Game
+# 🎮 **SEMESTRAL BREAKDOWN – Java Console Game**  
+![Java](https://img.shields.io/badge/Java-Console%20Game-orange)  
+![OOP](https://img.shields.io/badge/OOP-Principles%20Applied-blue)  
+![Status](https://img.shields.io/badge/Status-Completed-brightgreen)  
+![Platform](https://img.shields.io/badge/Platform-Console-lightgrey)
 
 ---
 
-## 🏷️ 1. Project Title  
-**College Life Survival: A 30-Day Student Simulation Game**
+## 📑 **Table of Contents**
+1. [Project Title](#1-project-title)  
+2. [Description / Overview](#2-description--overview)  
+3. [OOP Concepts Applied](#3-oop-concepts-applied)  
+4. [Program Structure](#4-program-structure)  
+5. [How to Run the Program](#5-how-to-run-the-program)  
+6. [Sample Output](#6-sample-output)  
+7. [Author & Acknowledgment](#7-author--acknowledgment)  
+8. [Future Enhancements](#8-future-enhancements)
 
 ---
 
-## 📘 2. Description / Overview  
-This project is a Java-based **console simulation game** where the player takes the role of a college student trying to survive a 30-day semester. The player must manage four key stats—**Money, Energy, Stress, and Grade**—while performing daily actions and handling random events.  
-Your goal is to finish the semester with **Grade ≥ 75%** while preventing burnout, bankruptcy, or excessive stress.
+# 1. **Project Title**  
+# 🎓 *College Life Survival: A 30-Day Student Simulation Game*
 
 ---
 
-## 🧩 3. OOP Concepts Applied
+# 2. **Description / Overview**  
+**College Life Survival** is a Java-based **console simulation game** where you experience what it’s like to survive a full **30-day college semester**. The player must balance four main stats:
 
-### **🔒 a. Encapsulation**
-- Player stats (money, energy, stress, grade) are **private**.
-- Managed through getters, setters, and modifier methods.
-- Protects data integrity throughout the game.
+- **Money**
+- **Energy**
+- **Stress**
+- **Grades**
 
-### **🌳 b. Inheritance**
-- All events inherit from the abstract class **Event**.
-- Examples: `ExamWeekEvent`, `PowerOutageEvent`, `AllowanceDelayEvent`, etc.
-- Allows shared structure with unique effects.
+Every day, the player chooses actions (Study, Work, Rest, Hang Out) while also encountering **random life events** that affect progress.  
+Your mission?  
+✔ **Pass the semester (Grade ≥ 75%)**  
+✔ Avoid collapse (Energy > 0)  
+✔ Manage stress (Stress < 100)  
+✔ Avoid going broke (Money > 0)
 
-### **🎭 c. Polymorphism**
-- Game uses an `Event[]` to trigger random events.
-- Each event overrides `apply(Player player)` to create different behaviors.
-- Enables flexibility and easy expansion.
-
-### **🧠 d. Abstraction**
-- The `Event` abstract class defines the skeleton for all events.
-- Game interacts with events without knowing their internal logic.
+The game demonstrates decision-making, stat balancing, and strong object-oriented design.
 
 ---
 
-## 🧱 4. Program Structure
+# 3. **OOP Concepts Applied**
 
-### **📍 Main Classes Overview**
+## 🛡️ **Encapsulation**
+- Player attributes are **private** (money, energy, stress, grade).
+- Controlled through **getters, setters, and modifier methods**.
+- Prevents unauthorized stat manipulation.
 
-#### **🎮 Game**
-- Controls game flow and day progression.
-- Manages actions, stat changes, events, and end conditions.
+---
 
-#### **🧍 Player**
-- Holds the player's stats.
-- Methods manage stat increases/decreases.
-- Enforces weekly action limits.
+## 🧬 **Inheritance**
+- All events inherit from an abstract base class **Event**.
+- Subclasses include:
+  - `ExamWeekEvent`
+  - `PowerOutageEvent`
+  - `AllowanceDelayEvent`
+  - `RainyDayEvent`
+  - `GoodDayEvent`
 
-#### **⚡ Event (Abstract)**
-- Template for all random events.
-- Subclasses implement unique effects.
+This allows a shared structure while enabling unique event effects.
 
-#### **🌦️ Event Subclasses**
+---
+
+## 🔁 **Polymorphism**
+- Game stores events inside an `Event[] eventPool`.
+- `apply(player)` behaves differently depending on event type.
+- Enables flexible and extendable event handling.
+
+---
+
+## 🎭 **Abstraction**
+- The abstract `Event` class defines required behavior.
+- Game only calls the method — unaware of internal event logic.
+- Simplifies architecture and hides complexity.
+
+---
+
+# 4. **Program Structure**
+
+## 📌 **Main Classes**
+
+### 🕹️ `Game`
+- Controls main gameplay loop (30 days)
+- Handles:
+  - Daily actions  
+  - Random events  
+  - Weekly limits  
+  - Stat updates  
+  - Win/lose conditions  
+
+---
+
+### 👤 `Player`
+- Stores player stats
+- Modifies attributes through methods
+- Implements weekly action limits:
+  - Study (4x)
+  - Work (3x)
+  - Rest (5x)
+  - Hang Out (3x)
+
+---
+
+### 🎲 `Event` (Abstract)
+- Parent class for all in-game random events
+- Defines `apply(Player)` method
+
+---
+
+### 🌩️ **Event Subclasses**
 - `ExamWeekEvent`  
 - `PowerOutageEvent`  
 - `AllowanceDelayEvent`  
 - `RainyDayEvent`  
 - `GoodDayEvent`  
 
----
-
-### **🗂️ Diagram**
+Each modifies player stats differently.
 
 ---
 
-## 🚀 5. How to Run the Program
+## 📂 ** Diagram (Text-based)**
+
 
 ---
 
-## 🖥️ 6. Sample Output
+# 5. **How to Run the Program**  
+*(content intentionally left blank)*
 
 ---
 
-## 🧑‍💻 7. Author and Acknowledgements
+# 6. **Sample Output**  
+*(content intentionally left blank)*
 
 ---
 
-## 📚 8. Other Sections
-
-### **a. Future Enhancements**
-### **b. References**
+# 7. **Author & Acknowledgment**  
+*(content intentionally left blank)*
 
 ---
+
+# 8. **Future Enhancements**  
+*(content intentionally left blank)*
+
+---
+
+
+
