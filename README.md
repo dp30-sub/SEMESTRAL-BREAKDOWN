@@ -127,22 +127,18 @@ Each modifies player stats differently.
 ---
 
 # 5. **How to Run the Program**  
-*(content intentionally left blank)*
 
 ---
 
 # 6. **Sample Output**  
-*(content intentionally left blank)*
 
 ---
 
 # 7. **Author & Acknowledgment**  
-*(content intentionally left blank)*
 
 ---
 
 # 8. **Future Enhancements**  
-*(content intentionally left blank)*
 
 ---
 
