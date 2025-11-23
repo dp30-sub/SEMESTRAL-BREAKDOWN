@@ -161,11 +161,11 @@ Once the game starts, you will see your starting stats:<br>
 **📚Grade**<br>
 
 Each day in the game:<br>
-  -A random event may occur<br>
-  -Your stats will be updated<br>
-  -You must make decisions that affect your performance<br>
-  -The goal is to finish the semester without failing<br>
-  -Events (e.g., ExamWeekEvent) influence your stats based on conditions like energy, stress, etc.<br>
+  - A random event may occur<br>
+  - Your stats will be updated<br>
+  - You must make decisions that affect your performance<br>
+  - The goal is to finish the semester without failing<br>
+  - Events (e.g., ExamWeekEvent) influence your stats based on conditions like energy, stress, etc.<br>
 
 ```
 if (player.getEnergy() >= 60) {
@@ -180,13 +180,13 @@ player.modifyStress(7);
 ## 🏁 Game Ending
 
 The game ends when:<br>
-  -The semester reaches its final day OR<br>
-  -You hit a game-over condition (0 energy, 0 money, 100 stress, etc.)<br>
-  -Your final stats and final score will be shown on screen.<br>
+  - The semester reaches its final day OR<br>
+  - You hit a game-over condition (0 energy, 0 money, 100 stress, etc.)<br>
+  - Your final stats and final score will be shown on screen.<br>
 
 # 6. **Sample Output**  
 
----
+
 
 # 7. **Author & Acknowledgment**  
 
