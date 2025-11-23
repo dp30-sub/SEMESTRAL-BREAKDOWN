@@ -1,4 +1,4 @@
-# 🎮 College Life Survival – Java Console Game
+# 🎮 SEMESTRAL BREAKDOWN – Java Console Game
 
 ---
 
@@ -62,7 +62,7 @@ Your goal is to finish the semester with **Grade ≥ 75%** while preventing burn
 
 ---
 
-### **🗂️ Class Relationship Diagram**
+### **🗂️ Diagram**
 
 ---
 
