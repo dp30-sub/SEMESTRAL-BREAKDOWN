@@ -129,8 +129,8 @@ Each modifies player stats differently.
 ---
 
 # 5. **📘 How to Run & Play the Game**  
-  -This project is a console-based Java simulation game where you must survive a semester by managing your energy, stress, money, and grades.
-  -The main entry point of the game is:
+  This project is a console-based Java simulation game where you must survive a semester by managing your energy, stress, money, and grades.
+  The main entry point of the game is:
    game/SemestralBreakdown.java
 
 
@@ -138,17 +138,17 @@ Each modifies player stats differently.
 ---🚀 How to Run the Program
 -When using a Command Line:
 -1. Navigate to the project's src folder:
-- cd/src
+    - cd/src
 -2. Compile all Java Files:
-- javac game/*. java game/events/*.java
+    - javac game/*. java game/events/*.java
 -3. Run the main class:
-- java game.SemestralBreakdown
+    - java game.SemestralBreakdown
 
 -When using an IDE:
 -1. Open the project folder in your IDE
 -2. Mark src as Source Root (if required)
 -3. Open the file:
-- game/semestralBreakdown.java
+    - game/semestralBreakdown.java
 -4. Right-click Run 'SemestralBreakdown.main()'
 
 
