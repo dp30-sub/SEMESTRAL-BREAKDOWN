@@ -122,6 +122,9 @@ Each modifies player stats differently.
 ---
 
 ## 📂 ** Diagram (Text-based)**
+<img src="<img width="1581" height="1434" alt="588115308_1438338531044278_7645152756966214044_n" src="https://github.com/user-attachments/assets/68a42802-c397-4d0d-8b7d-f82c03747271" />
+e.png" alt="Alt text" width="300"/>
+
 
 
 ---
