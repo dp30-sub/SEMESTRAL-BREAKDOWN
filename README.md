@@ -28,8 +28,8 @@
 
 - **💰Money**
 - **⚡Energy**
-- **Stress😣**
-- **Grades📚**
+- **😣Stress**
+- **📚Grades**
 
 Every day, the player chooses actions (Study, Work, Rest, Hang Out) while also encountering **random life events** that affect progress.  
 Your mission?  
