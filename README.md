@@ -1,119 +1,68 @@
+# 🎮 SEMESTRAL BREAKDOWN – Java Console Game
+
+## 1. Project Title
+**College Life Survival: A 30-Day Student Simulation Game**
 
 ---
 
-<p align="center">
-
-![Java](https://img.shields.io/badge/Java-17-red?style=for-the-badge&logo=java)
-![Console](https://img.shields.io/badge/Console%20Game-000000?style=for-the-badge&logo=gnu-bash)
-![Status](https://img.shields.io/badge/Status-Completed-brightgreen?style=for-the-badge)
-![License](https://img.shields.io/badge/License-Free-blue?style=for-the-badge)
-
-</p>
+## 2. Description / Overview  
+This project is a Java-based **console simulation game** where the player takes the role of a college student trying to survive a 30-day semester. The player must manage four key stats—**Money, Energy, Stress, and Grade**—while dealing with daily actions and random events.  
+The main challenge is to finish the semester with **Grade ≥ 75%**, while avoiding burnout, bankruptcy, or mental breakdown. The game demonstrates decision-making, resource management, and stat-balancing mechanics, packaged in an object-oriented design.
 
 ---
 
-## 📌 Overview
+## 3. OOP Concepts Applied
 
-**College Life Survival** is a 30-day **strategy simulation game** written in Java.  
-You take on the role of a student managing:
+### **a. Encapsulation**
+- Player attributes (money, energy, stress, grade) are stored as **private fields**.
+- Access and modification are handled through **getter, setter, and modifier methods**.
+- This prevents direct manipulation from other classes, ensuring data safety.
 
-- 💵 Money  
-- ⚡ Energy  
-- 😵 Stress  
-- 📚 Grade  
+### **b. Inheritance**
+- All random events inherit from a base abstract class **Event**.
+- Example subclasses: `ExamWeekEvent`, `AllowanceDelayEvent`, `PowerOutageEvent`, `GoodDayEvent`, etc.
+- This allows events to share common behavior while having unique effects.
 
-Your mission: **Survive 30 days WITHOUT collapsing, going bankrupt, or failing academically.**
+### **c. Polymorphism**
+- The game stores events in an `Event[]` array and triggers them randomly.
+- Each event overrides the `apply(Player player)` method, allowing **different behavior** depending on the event type.
+- This makes the program flexible and extendable.
 
-The semester starts with:
-
-- **$300**
-- **100 Energy**
-- **0 Stress**
-- **70% Grade** *(below passing — pressure is ON)*
-
-Your final goal is to end with **≥ 75% Grade** while keeping all stats above critical levels.
-
----
-
-## 🎲 Gameplay Mechanics
-
-### ✨ Daily Actions (Choose 1 per day)
-
-| Action | Effect |
-|-------|--------|
-| **Study** | +2% grade, +12 stress, -12 energy, -$50 |
-| **Work** | +$200, +15 stress, -1% grade, -15 energy |
-| **Rest** | +15 energy, -5 stress, +$30 |
-| **Hang Out** | -$80, -5 energy, -10 stress |
-
-### 🔁 Weekly Limits  
-Reset every 7 days:
-
-- 📖 Study: **4×**
-- 💼 Work: **3×**
-- 🛏️ Rest: **5×**
-- 🎉 Hang Out: **3×**
+### **d. Abstraction**
+- The abstract class `Event` defines the structure of all event types.
+- The player interacts with events through a **general interface**, without knowing their internal details.
+- Complex internal logic (event effects, stat changes) is hidden.
 
 ---
 
-## ⚡ Random Events
+## 4. Program Structure
 
-Your days will be influenced by unpredictable events such as:
+### **Main Classes**
 
-- **Exam Week Pressure**
-- **Allowance Delay**
-- **Power Outage**
-- **Rainy Day Mood Drop**
-- **Good Day Boost**
+#### **`Game`**
+- Controls the main game loop.
+- Handles daily actions, random events, weekly limits, stat clamping, and game-over conditions.
+- Manages progression across 30 days.
 
-Chance of events increases as the semester progresses.
+#### **`Player`**
+- Stores and manages the player’s stats.
+- Contains methods to modify attributes (energy, stress, grade, money).
+- Implements weekly limits for study, work, rest, and hangout actions.
 
----
+#### **`Event` (Abstract Class)**
+- Base structure for all random events.
+- Subclasses override the `apply()` method to add specific effects.
 
-## 🧠 Stat Effects & Balancing
+#### **Event Subclasses (Examples)**
+- `ExamWeekEvent`
+- `AllowanceDelayEvent`
+- `PowerOutageEvent`
+- `RainyDayEvent`
+- `GoodDayEvent`
 
-### Stress Impact  
-- **≥ 90:** Energy -6/day, Grade -1  
-- **≥ 75:** Energy -3/day  
-- **≥ 60:** Energy -1/day  
-
-### Energy Impact  
-- **> 85:** Stress -3 (naturally)  
-- **< 25:** Warning  
-- **< 15:** Grade -1/day  
-
-### Grade Cap  
-📌 Maximum: **95%**
+Each subclass modifies player stats differently.
 
 ---
 
-## 💀 Game Over Conditions
+### **Class Relationship Diagram **
 
-You instantly lose if:
-
-- ⚡ **Energy ≤ 0** → Collapse  
-- 💵 **Money ≤ 0** → Bankrupt  
-- 😵 **Stress ≥ 100** → Mental Breakdown  
-
-End-semester failure if:  
-📚 **Grade < 75%**
-
----
-
-## 🏆 Final Score Calculation
-
-Score is based on:
-
-- Money  
-- Energy  
-- Stress (lower = better)  
-- Grade  
-
-Outcome categories:
-
-- 🌟 **Outstanding**
-- 👍 Great Job
-- 🙂 Good Effort
-- ❌ Try Again
-
----
