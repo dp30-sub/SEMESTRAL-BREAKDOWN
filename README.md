@@ -142,5 +142,7 @@ Each modifies player stats differently.
 
 ---
 
+![Snake animation](https://github.com/thepiyushmalhotra/thepiyushmalhotra/blob/output/github-contribution-grid-snake.svg)
+
 
 
