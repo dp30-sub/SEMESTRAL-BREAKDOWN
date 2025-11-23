@@ -26,10 +26,10 @@
 # 2. **Description / Overview**  
 **College Life Survival** is a Java-based **console simulation game** where you experience what it’s like to survive a full **30-day college semester**. The player must balance four main stats:
 
-- **Money**
-- **Energy**
-- **Stress**
-- **Grades**
+- **💰Money**
+- **⚡Energy**
+- **Stress😣**
+- **Grades📚**
 
 Every day, the player chooses actions (Study, Work, Rest, Hang Out) while also encountering **random life events** that affect progress.  
 Your mission?  
@@ -97,10 +97,10 @@ This allows a shared structure while enabling unique event effects.
 - Stores player stats
 - Modifies attributes through methods
 - Implements weekly action limits:
-  - Study (4x)
-  - Work (3x)
-  - Rest (5x)
-  - Hang Out (3x)
+  - 🧠Study (4x)
+  - 💼Work (3x)
+  - 🛌Rest (5x)
+  - 🍻Hang Out (3x)
 
 ---
 
@@ -136,36 +136,36 @@ Each modifies player stats differently.
 
 
 ---🚀 How to Run the Program<br>
--When using a Command Line:
--1. Navigate to the project's src folder:<br>
-    - cd/src<br>
--2. Compile all Java Files:<br>
-    - javac game/*. java game/events/*.java<br>
--3. Run the main class:<br>
-    - java game.SemestralBreakdown<br>
+When using a Command Line:
+1. Navigate to the project's src folder:<br>
+     `cd/src`<br>
+2. Compile all Java Files:<br>
+     `javac game/*. java game/events/*.java`<br>
+3. Run the main class:<br>
+     `java game.SemestralBreakdown`<br>
 
--When using an IDE:<br>
--1. Open the project folder in your IDE<br>
--2. Mark src as Source Root (if required)<br>
--3. Open the file:<br>
-    - game/semestralBreakdown.java<br>
--4. Right-click Run 'SemestralBreakdown.main()'
+When using an IDE:<br>
+1. Open the project folder in your IDE<br>
+2. Mark src as Source Root (if required)<br>
+3. Open the file:<br>
+     `game/semestralBreakdown.java`<br>
+4. Right-click Run 'SemestralBreakdown.main()'
 
 
 ---🎮 How to Play the Game
 
--Once the game starts, you will see your starting stats:
--Money
--Energy
--Stress
--Grade
+Once the game starts, you will see your starting stats:<br>
+**💰Money**<br>
+**⚡Energy**<br>
+**😣Stress**<br>
+**📚Grade**<br>
 
--Each day in the game:
--A random event may occur
--Your stats will be updated
--You must make decisions that affect your performance
--The goal is to finish the semester without failing
--Events (e.g., ExamWeekEvent) influence your stats based on conditions like energy, stress, etc.
+Each day in the game:<br>
+A random event may occur<br>
+Your stats will be updated<br>
+You must make decisions that affect your performance<br>
+The goal is to finish the semester without failing<br>
+Events (e.g., ExamWeekEvent) influence your stats based on conditions like energy, stress, etc.<br>
 
 ```
 if (player.getEnergy() >= 60) {
@@ -179,10 +179,10 @@ player.modifyStress(7);
 
 🏁 Game Ending
 
--The game ends when:
--The semester reaches its final day OR
--You hit a game-over condition (0 energy, 0 money, 100 stress, etc.)
--Your final stats and final score will be shown on screen.
+The game ends when:<br>
+The semester reaches its final day OR<br>
+You hit a game-over condition (0 energy, 0 money, 100 stress, etc.)<br>
+Your final stats and final score will be shown on screen.<br>
 
 # 6. **Sample Output**  
 
