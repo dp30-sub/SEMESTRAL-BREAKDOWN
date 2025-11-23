@@ -100,7 +100,7 @@ This allows a shared structure while enabling unique event effects.
   - 🧠Study (4x)
   - 💼Work (3x)
   - 🛌Rest (5x)
-  - 🍻Hang Out (3x)
+  - 🎉Hang Out (3x)
 
 ---
 
@@ -135,8 +135,8 @@ Each modifies player stats differently.
 
 
 
----🚀 How to Run the Program<br>
-When using a Command Line:
+## 🚀 How to Run the Program <br>
+### When using a Command Line:
 1. Navigate to the project's src folder:<br>
      `cd/src`<br>
 2. Compile all Java Files:<br>
@@ -144,7 +144,7 @@ When using a Command Line:
 3. Run the main class:<br>
      `java game.SemestralBreakdown`<br>
 
-When using an IDE:<br>
+### When using an IDE:<br>
 1. Open the project folder in your IDE<br>
 2. Mark src as Source Root (if required)<br>
 3. Open the file:<br>
@@ -152,7 +152,7 @@ When using an IDE:<br>
 4. Right-click Run 'SemestralBreakdown.main()'
 
 
----🎮 How to Play the Game
+## 🎮 How to Play the Game
 
 Once the game starts, you will see your starting stats:<br>
 **💰Money**<br>
@@ -177,7 +177,7 @@ player.modifyEnergy(-10);
 player.modifyStress(7);
 ```
 
-🏁 Game Ending
+## 🏁 Game Ending
 
 The game ends when:<br>
 The semester reaches its final day OR<br>
