@@ -128,9 +128,61 @@ Each modifies player stats differently.
 
 ---
 
-# 5. **How to Run the Program**  
+# 5. **📘 How to Run & Play the Game**  
+  -This project is a console-based Java simulation game where you must survive a semester by managing your energy, stress, money, and grades.
+  -The main entry point of the game is:
+   game/SemestralBreakdown.java
 
----
+
+
+---🚀 How to Run the Program
+-When using a Command Line:
+-1. Navigate to the project's src folder:
+- cd/src
+-2. Compile all Java Files:
+- javac game/*. java game/events/*.java
+-3. Run the main class:
+- java game.SemestralBreakdown
+
+-When using an IDE:
+-1. Open the project folder in your IDE
+-2. Mark src as Source Root (if required)
+-3. Open the file:
+- game/semestralBreakdown.java
+-4. Right-click Run 'SemestralBreakdown.main()'
+
+
+---🎮 How to Play the Game
+
+-Once the game starts, you will see your starting stats:
+-Money
+-Energy
+-Stress
+-Grade
+
+-Each day in the game:
+-A random event may occur
+-Your stats will be updated
+-You must make decisions that affect your performance
+-The goal is to finish the semester without failing
+-Events (e.g., ExamWeekEvent) influence your stats based on conditions like energy, stress, etc.
+
+```
+if (player.getEnergy() >= 60) {
+    player.modifyGrade(+3);
+} else {
+    player.modifyGrade(-5);
+}
+player.modifyEnergy(-10);
+player.modifyStress(7);
+```
+
+🏁 Game Ending
+
+-The game ends when:
+-The semester reaches its final day OR
+-You hit a game-over condition (0 energy, 0 money, 100 stress, etc.)
+-Your final stats and final score will be shown on screen.
 
 # 6. **Sample Output**  
 
