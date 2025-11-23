@@ -1,36 +1,43 @@
-# 🎮 SEMESTRAL BREAKDOWN – Java Console Game
 
-A 30-day **college survival simulation** game written in Java.  
-Manage your **money, energy, stress, and grades** while dealing with **random events, weekly limits, and strategic choices**.  
-Your goal? **Finish the 30-day semester with a passing grade (≥75%)**—without going bankrupt, collapsing, or having a mental breakdown.
+---
+
+<p align="center">
+
+![Java](https://img.shields.io/badge/Java-17-red?style=for-the-badge&logo=java)
+![Console](https://img.shields.io/badge/Console%20Game-000000?style=for-the-badge&logo=gnu-bash)
+![Status](https://img.shields.io/badge/Status-Completed-brightgreen?style=for-the-badge)
+![License](https://img.shields.io/badge/License-Free-blue?style=for-the-badge)
+
+</p>
 
 ---
 
 ## 📌 Overview
 
-This game simulates what it's like to survive a semester as a college student.  
-Each day, the player chooses an action while reacting to random life events.  
-Balancing your stats is the key to success:
+**College Life Survival** is a 30-day **strategy simulation game** written in Java.  
+You take on the role of a student managing:
 
 - 💵 Money  
 - ⚡ Energy  
 - 😵 Stress  
-- 📚 Grade
+- 📚 Grade  
 
-You start with:
+Your mission: **Survive 30 days WITHOUT collapsing, going bankrupt, or failing academically.**
 
-- **$300**  
-- **100 Energy**  
-- **0 Stress**  
-- **70% Grade** *(below passing—so you must improve!)*
+The semester starts with:
 
-Survive all **30 days** and finish with a **grade ≥ 75%** to pass.
+- **$300**
+- **100 Energy**
+- **0 Stress**
+- **70% Grade** *(below passing — pressure is ON)*
+
+Your final goal is to end with **≥ 75% Grade** while keeping all stats above critical levels.
 
 ---
 
-## 🎲 Daily Actions
+## 🎲 Gameplay Mechanics
 
-You can choose **one action per day**, each with consequences:
+### ✨ Daily Actions (Choose 1 per day)
 
 | Action | Effect |
 |-------|--------|
@@ -39,81 +46,72 @@ You can choose **one action per day**, each with consequences:
 | **Rest** | +15 energy, -5 stress, +$30 |
 | **Hang Out** | -$80, -5 energy, -10 stress |
 
-### Weekly Limits
-Your character gets tired of routines, so each week you can only:
+### 🔁 Weekly Limits  
+Reset every 7 days:
 
-- 📖 Study **4×**
-- 💼 Work **3×**
-- 🛏️ Rest **5×**
-- 🎉 Hang Out **3×**
-
-Counters reset every 7 days.
+- 📖 Study: **4×**
+- 💼 Work: **3×**
+- 🛏️ Rest: **5×**
+- 🎉 Hang Out: **3×**
 
 ---
 
 ## ⚡ Random Events
 
-Random events occur with increasing chance as the semester progresses:
+Your days will be influenced by unpredictable events such as:
 
-Examples include:
-
-- **Exam Week Event**  
-- **Allowance Delay**  
-- **Power Outage**  
-- **Rainy Day**  
+- **Exam Week Pressure**
+- **Allowance Delay**
+- **Power Outage**
+- **Rainy Day Mood Drop**
 - **Good Day Boost**
 
-Events can raise or lower your stats, forcing you to adapt.
+Chance of events increases as the semester progresses.
 
 ---
 
-## 🧠 Game Mechanics & Effects
+## 🧠 Stat Effects & Balancing
 
-### Stress Effects
-High stress gradually drains your stats:
+### Stress Impact  
+- **≥ 90:** Energy -6/day, Grade -1  
+- **≥ 75:** Energy -3/day  
+- **≥ 60:** Energy -1/day  
 
-- **≥ 90:** Energy -6 daily, Grade -1  
-- **≥ 75:** Energy -3  
-- **≥ 60:** Energy -1  
-
-### Energy Effects
-
-- **> 85:** Stress naturally decreases  
+### Energy Impact  
+- **> 85:** Stress -3 (naturally)  
 - **< 25:** Warning  
-- **< 15:** Grade -1  
+- **< 15:** Grade -1/day  
 
-### Grade Cap
-
-Your grade cannot exceed **95%**.
+### Grade Cap  
+📌 Maximum: **95%**
 
 ---
 
 ## 💀 Game Over Conditions
 
-You lose **instantly** if any of the following happen:
+You instantly lose if:
 
-- **Energy ≤ 0** → Collapse  
-- **Money ≤ 0** → Bankruptcy  
-- **Stress ≥ 100** → Mental breakdown  
+- ⚡ **Energy ≤ 0** → Collapse  
+- 💵 **Money ≤ 0** → Bankrupt  
+- 😵 **Stress ≥ 100** → Mental Breakdown  
 
-At the **end of 30 days**, you also lose if:
-
-- **Grade < 75%**
+End-semester failure if:  
+📚 **Grade < 75%**
 
 ---
 
-## 🏆 Final Score
+## 🏆 Final Score Calculation
 
-Your total score is calculated using:
+Score is based on:
 
 - Money  
 - Energy  
 - Stress (lower = better)  
 - Grade  
 
-Feedback levels:
+Outcome categories:
 
-- ⭐ **Outstanding**
+- 🌟 **Outstanding**
 - 👍 Great Job
 - 🙂 Good Effort
 - ❌ Try Again
