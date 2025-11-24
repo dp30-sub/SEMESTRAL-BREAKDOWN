@@ -203,7 +203,7 @@ The game ends when:<br>
   https://github.com/loyditech
 
 ### Dave Rowan V. Paunil
-<img src="![588354708_4458724774395632_6637527177686350720_n](https://github.com/user-attachments/assets/c0b91db1-0b75-4cc4-a196-ed5840026cc7)" width="120">
+<img src="/mnt/data/588354708_4458724774395632_6637527177686350720_n.jpg" alt="Dave Rowan Photo" width="120" style="border-radius:10px;">
 
 - 🌐 GitHub: dp30-sub  
   https://github.com/dp30-sub
