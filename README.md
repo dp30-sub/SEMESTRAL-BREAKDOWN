@@ -188,18 +188,26 @@ The game ends when:<br>
 
 
 
-# 7. **Author & Acknowledgment**  
-
 ## 👤 Author
 
-**Dhanreigh I. Atienza**  
-- 🌐 GitHub: Dadanchii https://github.com/Dadanchii  
-  
-**Mark John Lloyd L. Ncinas**  
-- 🌐 GitHub: loyditech https://github.com/loyditech
-  
-**Dave Rowan V. Paunil**  
-- 🌐 GitHub: dp30-sub https://github.com/dp30-sub  
+### Dhanreigh I. Atienza
+<img src="/mnt/data/bbbc2a22-2ca3-4ef2-8aea-161bd1ec26ee.png" alt="Dhanreigh Photo" width="120">
+
+- 🌐 GitHub: Dadanchii  
+  https://github.com/Dadanchii
+
+### Mark John Lloyd L. Ncinas
+<img src="/mnt/data/bbbc2a22-2ca3-4ef2-8aea-161bd1ec26ee.png" alt="Mark John Photo" width="120">
+
+- 🌐 GitHub: loyditech  
+  https://github.com/loyditech
+
+### Dave Rowan V. Paunil
+<img src="![588354708_4458724774395632_6637527177686350720_n](https://github.com/user-attachments/assets/c0b91db1-0b75-4cc4-a196-ed5840026cc7)" width="120">
+
+- 🌐 GitHub: dp30-sub  
+  https://github.com/dp30-sub
+
 
 ## 🙏 Acknowledgements
 
