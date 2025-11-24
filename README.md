@@ -191,7 +191,7 @@ The game ends when:<br>
 ## 👤 Author
 
 ### Dhanreigh I. Atienza
-<![588354708_4458724774395632_6637527177686350720_n](https://github.com/user-attachments/assets/c0b91db1-0b75-4cc4-a196-ed5840026cc7)="/mnt/data/bbbc2a22-2ca3-4ef2-8aea-161bd1ec26ee.png" alt="Dhanreigh Photo" width="120">
+<="/mnt/data/bbbc2a22-2ca3-4ef2-8aea-161bd1ec26ee.png" alt="Dhanreigh Photo" width="120">
 
 - 🌐 GitHub: Dadanchii  
   https://github.com/Dadanchii
