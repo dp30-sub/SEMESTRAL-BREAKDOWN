@@ -19,7 +19,7 @@
 ---
 
 # 1. **Project Title**  
-# 🎓 *College Life Survival: A 30-Day Student Simulation Game*
+# 🎓 *SEMESTRAL BREAKDOWN*
 
 ---
 
