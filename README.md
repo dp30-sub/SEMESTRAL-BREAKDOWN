@@ -24,7 +24,7 @@
 ---
 
 # 2. **Description / Overview**  
-**College Life Survival** is a Java-based **console simulation game** where you experience what it’s like to survive a full **30-day college semester**. The player must balance four main stats:
+**Semestral Breakdwon** is a Java-based **console simulation game** where you experience what it’s like to survive a full **30-day college semester**. The player must balance four main stats:
 
 - **💰Money**
 - **⚡Energy**
